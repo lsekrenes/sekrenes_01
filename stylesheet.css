@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&display=swap');
 
 body {
-    margin:0;
+    margin: 0;
 }
 
-.headwrapper { 
-background-color:gainsboro;
-font-family: "Libre Franklin", sans-serif;
+.headwrapper {
+    background-color: gainsboro;
+    font-family: "Libre Franklin", sans-serif;
 }
 
 header {
@@ -15,7 +15,7 @@ header {
 
 header h1,
 header h2 {
-    margin:0;
+    margin: 0;
 }
 
 header h1 {
@@ -25,12 +25,27 @@ header h1 {
 main {
     font-family: "Quicksand", serif;
     padding: 2rem;
+    background-color: lightpink;
+    display: flex;
+    flex-direction: column;
+    height: 75vh;
 }
 
 main h1 {
-    margin:0;
+    margin: 0;
+    display: flex;
+    padding: 3rem;
+    justify-content: center;
+    align-items: center;
+
 }
 
 main p {
-    max-width:80ch;
+    max-width: 80ch;
+    flex: 1 1 auto;
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+
 }
