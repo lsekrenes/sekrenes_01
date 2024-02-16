@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&family=Smooch+Sans:wght@100..900&display=swap');
 
 body {
     margin: 0;
 }
 
 .headwrapper {
-    background-color: gainsboro;
-    font-family: "Libre Franklin", sans-serif;
+    background-color: papayawhip;
+    font-family: "Smooch Sans", sans-serif;
 }
 
 header {
@@ -23,12 +23,12 @@ header h1 {
 }
 
 main {
-    font-family: "Quicksand", serif;
+    font-family: "Protest Riot", serif;
     padding: 2rem;
-    background-color: lightpink;
+    background-color:burlywood;
     display: flex;
     flex-direction: column;
-    height: 75vh;
+    height: 100vh;
 }
 
 main h1 {
@@ -37,6 +37,7 @@ main h1 {
     padding: 3rem;
     justify-content: center;
     align-items: center;
+    color:aliceblue
 
 }
 
@@ -47,5 +48,7 @@ main p {
     padding: 1rem;
     justify-content: center;
     align-items: center;
-
+    font-size:x-large;
+    text-align: justify;
+    color: navy;
 }
